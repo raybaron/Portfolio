@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+ width: 100%;
+ margin-bottom: 0%;
+
+
+}
+.bg{
+    background-image: url(images/bg-nav.png);   
+    margin-bottom: 0;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+   
+}
+
+  
+  .nav-links {
+    flex: 1;
+    margin-left: 12%;
+    margin-top: 4%;
+    text-align: left;
+  }
+  
+  .nav-links ul li {
+    font-weight: bold;
+    list-style: none;
+    font-size: 2.45vh;
+    display: inline-block;
+    padding: 8px 41px;
+    position: relative;
+  }
+  .banner {
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .textbox-footer {
+    width: 50%;
+    text-align: left;
+  }
+
+  .textbox-h1{
+      font-size:  45px ;
+      margin-bottom: 3%;
+      font-weight: 1200;
+  }
+  .textbox {
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin: 12%;
+    margin-left: 8%;
+    margin-right: 25%;
+    padding-right: 0%;
+  
+    
+  }
+  .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(163,203,57);
+    
+    padding: 12px 45px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+  .background-image {
+    width:450px;
+    padding-right: 4%;
+  }
+
+  .education {
+    background-image: url(images/bg.png);
+    background-repeat:no-repeat ;
+    width: 100%;
+    display: flex;
+  
+  }
+
+  .education-heading{
+   
+      width: 10%;
+      font-size: 10vh;
+      font-weight: bolder;
+      margin-left: 8%;
+  }
+
+  .education-text{
+    width: 40%;
+    font-weight: bolder;
+    margin-left: 20%;
+}
+
+.education-text h1,div,h3{
+    margin-bottom: 3%;
+}
+
+.work {
+    width: 100%;
+    display: flex;
+   
+    flex-direction: column;
+    text-align: center;
+  }
+.work h1{
+    font-size: 8vh;
+    margin-bottom: 3%;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+  }
+
+.row-one{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-two{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-box{
+
+    text-align: left;
+    width: 15%;
+}
+.project-box h3{
+    font-weight: bolder;
+}
+.project-box div{
+    font-size: 15px;
+}
+
+.achievements{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}   
+.achievements-textbox{
+    margin: 5%;
+    width: 60%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+.ach-row{
+    width: 60%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.ach-row-two{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    justify-content: left;
+
+}
+
+.achievements-textbox:before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 2%;
+    border-top: 3px solid rgb(163,203,57);
+
+}
+
+.greenBox{
+    width: 30%;
+    font-size: 13vh;
+    background-color: rgb(163,203,57);
+    color: white;
+    padding-left:   2%;
+    padding-right: 10%;
+    text-align:left ;
+    font-weight: bold;
+ height: 50vh;
+}
+
+.hobbies{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.hobbies-textbox{
+    width: 20%;
+    margin-left: 8%;
+    padding-right: 22%;
+
+}
+.hobbies h1{
+    font-size:13vh ;
+    color: rgb(163,203,57);
+}
+
+.images{
+    width: 30%;
+   
+}
+.images-col-1 img{
+    width: 10%;
+    
+}
+.footer{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0%;
+    flex-direction: row;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding-top: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    color: white;
+    background-color: rgb(163,203,57);
+}
+.footer-left h1{
+    font-size: 50px;
+}
+.footer-right {
+    width: 60%;
+    flex-direction: column-reverse;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    margin-bottom: 0%;
+   display: flex;
+   text-align: right;
+}
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-img a{
+    margin-left: 2%;
+}
